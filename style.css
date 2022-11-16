@@ -8,6 +8,8 @@ body {
   height: 100vh;
   font-family: 'Outfit', sans-serif;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -18,29 +20,31 @@ body {
   width: 250px;
   align-self: center;
   justify-self: center;
-  border-radius: 5px;
-  box-shadow: 0px 6px 15px 3px hsla(220, 15%, 55%, .45);
+  border-radius: 12.5px;
+  box-shadow: 0px 6px 15px 3px hsla(220, 15%, 55%, .3);
 }
 
 p {
   font-size: 15px;
   text-align: center;
-  word-wrap: break-word;
 }
 
 .heading > p {
   font-weight: 700;
+  margin: 0px 25px 0px 25px;
 }
 
 .subheading > p {
+  font-size: .75rem;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
+  margin: 10px 25px 30px 25px;
 }
 
 img {
   margin: 10px 10px 20px 10px;
-  border-radius: 5px;
-  height: 100px;
+  border-radius: 12.5px;
+  height: 230px;
 }
 
 .attribution {
